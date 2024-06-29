@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Aunthetication Using FireBase</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="user_authentication.css">
+</head>
+
+<body>
+    <br>
+    <h1>User Aunthetication Using FireBase</h1>
+    <br><br>
+
+    <!-- email, password, sign_in_btn, sign_up_btn -->
+    <div id="signup_signin_box">
+        <input type="email" id="email" placeholder="email">
+        <input type="password" id="pasword" placeholder="password">
+        <div class="button">
+            <button id="sign_up_btn">Sign up</button>
+            <button id="sign_in_btn">Sign in</button>
+        </div>
+    </div>
+
+    <!-- login box -->
+    <div id="login_box">
+        <div id="current_user_data_box">
+            <p id="current_user_id">Current User Id</p>
+            <button id="logout_btn">Logout</button>
+        </div>
+
+    </div>
+
+    <script src="user_authentication.js" type="module"></script>
+</body>
+
+</html>
